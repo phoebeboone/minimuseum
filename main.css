@@ -1,0 +1,39 @@
+html,body {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  font-size: 10px;
+}
+
+pre {
+  font-family: arial;
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+img{
+  width:100%;
+}
+
+.see img{
+  width: 18px
+}
+
+.play img{
+  width: 15px
+}
+
+canvas{
+  position: absolute;
+  top:0px;
+  left:0px;
+  z-index:9999;
+}
